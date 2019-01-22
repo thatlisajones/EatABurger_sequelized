@@ -1,0 +1,38 @@
+.jumbotron {
+  padding: 5px;
+  margin: 5px;
+  background: white;
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+    /* background: yellow; */
+  }
+
+  .to-eat {
+    
+    background: yellow;
+  }
+
+  .eaten {
+    background: orange;
+}
+
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: greenyellow;
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+  }
+  
+ 
+  

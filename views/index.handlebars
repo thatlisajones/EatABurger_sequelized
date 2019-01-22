@@ -1,0 +1,52 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <div class="text-center">
+
+      <img src="./assets/img/CatBurgerer.jpg" class="img-fluid" alt="Responsive image">
+    </div>
+  </div>
+
+  <br>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Burgers to eat:</h5>
+          <p class="card-text">
+            <ul class="to-eat">
+              {{#each burgers}}
+              {{#unless devoured}}
+              {{> burgers/burger-block devour=true}}
+              {{/unless}}
+              {{/each}}
+            </ul>
+          </p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Burgers eaten:</h5>
+          <p class="card-text">
+            <ul class="eaten">
+              {{#each burgers}}
+              {{#if devoured}}
+              {{> burgers/burger-block devour=false}}
+              {{/if}}
+              {{/each}}
+            </ul>
+          </p>
+
+
+          <form class="create-form">
+
+            <div class="form-group">
+              <label for="burger">Name a new burger:</label>
+              <input type="text" id="burgerNameInput" name="burger_name">
+            </div>
+
+
+            <button type="submit">Order it</button>
+          </form>

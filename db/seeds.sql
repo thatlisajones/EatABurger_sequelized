@@ -1,0 +1,10 @@
+INSERT INTO burgers (burger_name) VALUES ('Double Dipper');
+INSERT INTO burgers (burger_name) VALUES ('Dude Ranch');
+INSERT INTO burgers (burger_name, devoured) VALUES ('Rustler', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Veggie Rustler', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Avocado Sagebrush', true);
+INSERT INTO burgers (burger_name) VALUES ('Plain Wayne');
+INSERT INTO burgers (burger_name) VALUES ('Hotty Habanero');
+INSERT INTO burgers (burger_name) VALUES ('Bunless Wonder');
+INSERT INTO burgers (burger_name) VALUES ('Cheddar Smokestack');
+INSERT INTO burgers (burger_name) VALUES ('Lil Tofu Sprout');

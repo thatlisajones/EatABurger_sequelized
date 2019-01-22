@@ -1,1 +1,1 @@
-# EatABurger_sequelized
+# EatABurger
